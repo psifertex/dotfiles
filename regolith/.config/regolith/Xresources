@@ -1,0 +1,11 @@
+gnome.terminal.font:	JetBrains Mono 16
+rofi.show: combi
+rofi.modi: drun,window
+rofi.combi-modi: window,drun
+rofi.sorting-method: fzf
+rofi.sort: true
+rofi.matching: fuzzy
+rofi.drun-match-fields: name,generic,categories
+rofi.drun-show-actions: true
+i3-wm.program.launcher.app: rofi -show combi -theme $rofiTheme
+gnome.wallpaper: /home/v35/Pictures/Wallpapers/background.jpg
